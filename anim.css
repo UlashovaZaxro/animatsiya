@@ -1,0 +1,18 @@
+img {
+    animation-name: yurgiz;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+     /* animation-direction:alternate; */
+    animation-delay:  1s; 
+
+    position: absolute;
+}
+@keyframes yurgiz {
+    from {
+        left: 0;
+        top: 0;
+    }
+    to {
+        left: 80%;
+    }
+}
